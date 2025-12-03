@@ -23,9 +23,7 @@ The network connects a **Headquarters (4 Floors)** with a **Branch Office** and 
 | | Guest Area | 90 | 192.168.12.0/26 |
 | **HQ - Floor 4** | Administration | 100 | 192.168.12.64/26 |
 | | ICT | 110 | 192.168.12.128/26 |
-| | Server Room | 120 | 192.168.12.192/26 |
-| **Branch Office** | FKG | 90 | 192.168.9.0/24 |
-| | FK | 100 | 192.168.10.0/24 |
+| | Server Room | 120 | 192.168.12.192/29 |
 
 ## Key Configurations
 
@@ -66,11 +64,8 @@ In this design, we prioritized **Scalability** and **Performance** by using Mult
 1. Download the `.pkt` file.
 2. Open with Cisco Packet Tracer (Version 8.2+).
 3. Wait for OSPF neighbor adjacency to form (convergence).
-4. **Test Connectivity:**
-   * Ping between PC Management (VLAN 10) and Laptop Guest (VLAN 90).
-   * Access the web server via browser: `http://192.168.12.194`.
-   * Send an email between different users.
 
 ---
 
-**Alvin Oktavian** - 2025
+**Alvin Oktavian S. S.** - 2025
+
