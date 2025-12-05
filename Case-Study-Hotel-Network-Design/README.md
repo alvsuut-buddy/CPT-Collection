@@ -1,8 +1,5 @@
 # Hotel Network Infrastructure Design
 
-**Project Type:** Network Engineering Practicum
-**Tool:** Cisco Packet Tracer
-
 ## Overview
 
 This project simulates a hierarchical network infrastructure designed for a multi-story hotel building. The topology focuses on traffic segmentation, scalability, and security using Cisco Packet Tracer.
@@ -55,5 +52,6 @@ The design implements VLANs for departmental separation, Inter-VLAN Routing for 
 ---
 
 **Alvin Oktavian** - 2025
+
 
 
