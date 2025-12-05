@@ -55,10 +55,6 @@ The network connects a **Headquarters (4 Floors)** with a **Branch Office** and 
    * **Port Security:** Configured on access ports (sticky MAC, violation shutdown).
    * **WLAN Security:** WPA2-PSK authentication for Guest Area Access Points.
 
-## Trade-Off Analysis
-
-In this design, we prioritized **Scalability** and **Performance** by using Multilayer Switches at the distribution layer. This reduces the load on the main router compared to a Router-on-a-Stick model, although it increases hardware cost. OSPF was chosen over RIP for faster convergence and better scalability for a large enterprise network.
-
 ## How to Run
 
 1. Download the `.pkt` file.
@@ -68,4 +64,5 @@ In this design, we prioritized **Scalability** and **Performance** by using Mult
 ---
 
 **Alvin Oktavian S. S.** - 2025
+
 
