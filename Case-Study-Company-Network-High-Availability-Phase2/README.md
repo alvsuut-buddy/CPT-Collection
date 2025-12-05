@@ -1,4 +1,4 @@
-# High Availability Network Implementation (Nagoya Company)
+# Company Network Design & Configuration Phase 2 for High Availability Network Implementation
 
 ## Overview
 This project enhances the previous Nagoya Company network by implementing **High Availability** and **Load Balancing**. The goal is to ensure network continuity even if a distribution switch or router fails. This is achieved by configuring HSRP for gateway redundancy and EtherChannel for link aggregation.
@@ -35,4 +35,5 @@ Configured on Multilayer Switches to provide a Virtual Gateway for end devices.
 
 ---
 **Alvin Oktavian** - 2025
+
 
