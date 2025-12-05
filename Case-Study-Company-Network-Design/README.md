@@ -1,8 +1,5 @@
 # Case Study: Company Network Design & Configuration
 
-**Project Type:** Network Engineering Practicum
-**Tool:** Cisco Packet Tracer
-
 ## Overview
 This project simulates the network infrastructure for Nagoya Company's new 4-story building. The design focuses on high availability and redundancy using a hierarchical model with dual ISPs. It incorporates advanced routing (OSPF), VLAN segmentation, Inter-VLAN routing via Multilayer Switches, NAT Overload for internet access, and strict security measures.
 
@@ -47,3 +44,4 @@ The network spans 4 floors and connects to the internet via two ISPs for redunda
 
 ---
 **Alvin Oktavian** - 2025
+
