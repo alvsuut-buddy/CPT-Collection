@@ -9,25 +9,6 @@ This project simulates a hierarchical network infrastructure designed for a mult
 
 The design implements VLANs for departmental separation, Inter-VLAN Routing for communication between segments, OSPF for routing between floors, and WLAN for mobile accessibility.
 
-## Network Topology
-
-The network is physically divided into 3 floors, connected via Routers using Serial DCE cables (configured with OSPF Area 0).
-
-### Floor Distribution & VLAN Allocation
-
-| Floor | Department | VLAN ID | Network Address | Devices |
-| :--- | :--- | :--- | :--- | :--- |
-| **3rd Floor** | IT (Server) | 10 | 192.168.1.0/24 | PC, Printer |
-| | Admin | 20 | 192.168.2.0/24 | PC, Printer, AP |
-| **2nd Floor** | Sales | 30 | 192.168.3.0/24 | PC, Printer, AP |
-| | HR | 40 | 192.168.4.0/24 | PC, Printer |
-| | Finance | 50 | 192.168.5.0/24 | PC, Printer |
-| **1st Floor** | Logistic | 60 | 192.168.6.0/24 | PC, Printer |
-| | Store | 70 | 192.168.7.0/24 | PC, Printer |
-| | Reception | 80 | 192.168.8.0/24 | PC, Printer, AP |
-
-*Note: Routers are connected via 10.10.10.x/30 subnets using OSPF for the backbone.*
-
 ---
 
 ## Key Configurations
@@ -74,4 +55,5 @@ The network is physically divided into 3 floors, connected via Routers using Ser
 ---
 
 **Alvin Oktavian** - 2025
+
 
